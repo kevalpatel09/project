@@ -22,15 +22,13 @@
 }
 
 /* start-navbar */
-a {
-  text-decoration: none;
-  color: rgb(34, 34, 34);
-}
 header{
   position: sticky;
-  top: 10px;
+  top: 0px;
   background-color: #fff;
+  z-index: 1;
 }
+
 .header-content {
   background-color: white;
   border-bottom: 2px solid rgb(216, 136, 17);
@@ -47,7 +45,10 @@ header{
 .header-content h1 a:hover{
     color: #021744;
 }
-
+a {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
 .uo-content {
   display: flex;
   list-style: none;
@@ -95,6 +96,34 @@ header{
 }
 /* main-sec ends */
 
+
+
+/* whole process starts */
+#how{
+  margin: 300px 50px;
+}
+
+#how h1{
+  text-align: center;
+  margin: 100px;
+  font-family: var(--font-family);
+}
+.divs{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.card-header{
+  text-align: center;
+}
+.card-body .btn{
+  border: none;
+  background:  #f68a40;
+}
+.card-body .btn:hover{
+  color:  black;
+}
+/* whole-ends */
 
 /* quotes-sec start */
 #quotes{
