@@ -17,7 +17,7 @@
   width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(6, 150, 207); 
+  background: #021744; 
   border-radius: 100px;
 }
 
@@ -29,6 +29,7 @@ a {
 header{
   position: sticky;
   top: 10px;
+  background-color: #fff;
 }
 .header-content {
   background-color: white;
@@ -44,7 +45,7 @@ header{
   letter-spacing: 10px;
 }
 .header-content h1 a:hover{
-    color: rgb(228, 18, 18);
+    color: #021744;
 }
 
 .uo-content {
@@ -73,29 +74,43 @@ header{
 
 /* Main section begins */
 #container{
-  margin: 150px 50px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  margin: 200px 50px;
+}
+#container p{
+  width: 50%;
+  font-size: 100px;
+  color: #f68a40;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+#container #img{
+  width: 100%;
+}
+#container #img img{
+  width: 80%;
+  margin-left: 200px;
+}
+/* main-sec ends */
+
+
+/* quotes-sec start */
+#quotes{
+  margin: 300px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
-
-#container .carousel{
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
 }
-.carousel-item h1{
-  font-family: var(--font-family);
-  width: 100%;
-  height: 300px;
+#quotes .carousel-item{
+  color: #021744;
   text-align: center;
-  color: rgb(255, 123, 0);
-  font-weight:lighter;
 }
-#container #img{
-  width: 50%;
-}
-
-#container #img img{
-  width: 100%;
-  margin-left: 180px;
-}
+/* quotes-sec ends */
