@@ -170,3 +170,69 @@ a {
   color: #f68a40;
   cursor: pointer;
 }
+/* why-ends */
+
+/* footer starts */
+#fot{
+  background-color:#dad9d8;
+  font-family: var(--font-family);
+}
+
+#fot-1{
+  display: flex;
+  margin: 0px;
+  padding: 50px;
+  justify-content: space-evenly;
+}
+
+#fot h1 a{
+  font-size: 100px;
+  color: #f68a40;
+  font-weight: 200;
+  margin: 10px 300px;
+}
+
+#fot-1 ul li{
+  list-style: none;
+  line-height: 40px;
+  cursor: pointer;
+}
+.footer-1 ul .phone::before {
+  content: url(/pictures/icon-phone.svg);
+  position: absolute;
+  left: 250px;
+}
+.footer-1 ul .mail::before {
+  content: url(/pictures/icon-email.svg);
+  position: absolute;
+  left: 250px;
+}
+
+.footer-2 li a:hover{
+  text-decoration: underline;
+  color: #f68a40;
+}
+
+.footer-3{
+  width: 200px;
+}
+.contact-us{
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.contact-us li{
+  color: black;
+  border: 1px solid #f68a40;
+  border-radius: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  padding: 5px;
+}
+.contact-us li:hover{
+  color: #f68a40;
+}
