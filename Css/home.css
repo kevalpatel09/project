@@ -11,6 +11,7 @@
   --text-weight-2: 500;
   --font-family: 'Montserrat', sans-serif;;
   --font-color-1:  #021744;
+  --margin:0 50px;
 }
 /* scrollbar */
 ::-webkit-scrollbar {
@@ -96,11 +97,63 @@ a {
 }
 /* main-sec ends */
 
+/* what start */
 
+#what{
+  margin: var(--margin);
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px;
+}
+#what h1 b{
+  font-weight: 200;
+  color: #f68a40;
+  text-transform: uppercase;
+  font-family: 'Cairo', sans-serif;
+}
+#what p{
+  font-weight: bolder;
+  color: rgb(56, 56, 56);
+  font-size: 1.2em;
+}
+
+/* ends here */
+
+/* why start */
+#why{
+  background-color: rgb(206, 206, 206);
+  border-bottom: 1px solid #f68a40;
+  border-top: 1px solid #f68a40;
+}
+#why-1{
+  margin: 00px 50px;
+  padding: 50px 0;
+  width: 50%;
+}
+#why-1 h1{
+  font-family: var(--font-family);
+  font-weight: 800;
+  line-height: 90px;
+  text-decoration: underline;
+  
+}
+#why-1 p{
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 1.09em;
+}
+#why-1 p span{
+  color: #f68a40;
+  cursor: pointer;
+}
+/* why-ends */
 
 /* whole process starts */
 #how{
-  margin: 300px 50px;
+  margin: 200px 50px;
 }
 
 #how h1{
@@ -127,7 +180,7 @@ a {
 
 /* quotes-sec start */
 #quotes{
-  margin: 300px 50px;
+  margin: 100px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,33 +197,6 @@ a {
 }
 /* quotes-sec ends */
 
-
-/* why start */
-#why{
-  background-color: rgb(206, 206, 206);
-}
-#why-1{
-  margin: 00px 50px;
-  padding: 70px 0;
-  width: 50%;
-}
-#why-1 h1{
-  font-family: var(--font-family);
-  font-weight: 800;
-  line-height: 90px;
-  text-decoration: underline;
-  
-}
-#why-1 p{
-  line-height: 30px;
-  font-weight: 600;
-  font-size: 1.09em;
-}
-#why-1 p span{
-  color: #f68a40;
-  cursor: pointer;
-}
-/* why-ends */
 
 /* footer starts */
 #fot{
