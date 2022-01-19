@@ -201,6 +201,7 @@ a {
 /* footer starts */
 #fot{
   background-color:#dad9d8;
+  border-top: 1px solid #f68a40;
   font-family: var(--font-family);
 }
 
