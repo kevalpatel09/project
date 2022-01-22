@@ -32,7 +32,8 @@ header{
 
 .header-content {
   background-color: white;
-  border-bottom: 2px solid rgb(216, 136, 17);
+  /* border-bottom: 2px solid rgb(216, 136, 17); */
+  border-bottom: 2px solid #74b434;
   display: flex;
   justify-content: space-between;
   margin: 20px 50px;
@@ -84,7 +85,9 @@ a {
 #container p{
   width: 50%;
   font-size: 100px;
-  color: #f68a40;
+  /* color: #f68a40; */
+  color: #74b434;
+
   font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -108,25 +111,47 @@ a {
   flex-direction: column;
   margin: 100px;
 }
-#what h1 b{
+#what h1{
+  margin: 40px 0px;
+
+}
+#what1 h1 b{
   font-weight: 200;
-  color: #f68a40;
+  /* color: #f68a40; */
+  color: #74b434;
   text-transform: uppercase;
   font-family: 'Cairo', sans-serif;
 }
-#what p{
+#what1 p{
   font-weight: bolder;
   color: rgb(56, 56, 56);
   font-size: 1.2em;
+  text-align:justify;
+}
+#what2 h1 b{
+  font-weight: 200;
+  color: #f68a40;
+  color: #74b434;
+  text-transform: uppercase;
+  font-family: 'Cairo', sans-serif;
+}
+#what2 p{
+  font-weight: bolder;
+  color: rgb(56, 56, 56);
+  font-size: 1.2em;
+  text-align:justify;
 }
 
 /* ends here */
 
 /* why start */
 #why{
-  background-color: rgb(206, 206, 206);
-  border-bottom: 1px solid #f68a40;
-  border-top: 1px solid #f68a40;
+  background-color: rgb(231, 231, 231);
+  /* border-bottom: 1px solid #f68a40; */
+  border-bottom: 1px solid #74b434;
+  /* border-top: 1px solid #f68a40; */
+  border-top: 1px solid #74b434;
+  text-align: justify;
 }
 #why-1{
   margin: 00px 50px;
@@ -146,7 +171,8 @@ a {
   font-size: 1.09em;
 }
 #why-1 p span{
-  color: #f68a40;
+  color: #74b434;
+  /* color: #f68a40; */
   cursor: pointer;
 }
 /* why-ends */
@@ -155,7 +181,9 @@ a {
 #how{
   margin: 200px 50px;
 }
-
+.mb-3{
+  border:2px solid #74b434;
+}
 #how h1{
   text-align: center;
   margin: 100px;
@@ -172,9 +200,13 @@ a {
 .card-body .btn{
   border: none;
   background:  #f68a40;
+  background:  #74b434;
 }
 .card-body .btn:hover{
   color:  black;
+}
+.c-2 a{
+  margin-top: 20px;
 }
 /* whole-ends */
 
@@ -202,6 +234,7 @@ a {
 #fot{
   background-color:#dad9d8;
   border-top: 1px solid #f68a40;
+  border-top: 1px solid #74b434;
   font-family: var(--font-family);
 }
 
@@ -215,6 +248,7 @@ a {
 #fot h1 a{
   font-size: 100px;
   color: #f68a40;
+  color: #74b434;
   font-weight: 200;
   margin: 10px 250px;
 }
@@ -238,6 +272,8 @@ a {
 .footer-2 li a:hover{
   text-decoration: underline;
   color: #f68a40;
+  color: #74b434;
+
 }
 
 .footer-3{
@@ -252,6 +288,7 @@ a {
 .contact-us li{
   color: black;
   border: 1px solid #f68a40;
+  border: 1px solid #74b434;
   border-radius: 100%;
   height: 30px;
   display: flex;
@@ -262,4 +299,5 @@ a {
 }
 .contact-us li:hover{
   color: #f68a40;
+  color: #74b434;
 }
